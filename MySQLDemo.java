@@ -1,8 +1,6 @@
-package test;
-
 import java.sql.*;
 
-public class MySQLDemo0 {
+public class MySQLDemo {
 
     public void test() {
         String sql = "select * from student where name = ?";
