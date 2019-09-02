@@ -1,7 +1,7 @@
 import java.sql.*;
 
 public class MySQLDemo {
-
+ 
     public void test() {
         String sql = "select * from student where name = ?";
         String name0 = "B";
